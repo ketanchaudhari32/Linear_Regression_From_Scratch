@@ -8,7 +8,6 @@ def calculate_hypothesis(X, theta, i):
     """
     
     #########################################
-    # Write your code here
     # You must calculate the hypothesis for the i-th sample of X, given X, theta and i.
     hypothesis = np.sum(X[i,:] * theta[:]) 
     ########################################/

@@ -33,7 +33,6 @@ theta_final = gradient_descent(X_normalized, y, theta, alpha, iterations, do_plo
 print(f"Theta values after optimization: {theta_final}")
 
 #########################################
-# Write your code here
 # Create two new samples: (1650, 3) and (3000, 4)
 # Calculate the hypothesis for each sample, using the trained parameters theta_final
 # Make sure to apply the same preprocessing that was applied to the training data
